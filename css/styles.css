@@ -1,0 +1,129 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #682c0e;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  margin: 50px auto 0;
+}
+
+h2, h3 {
+  color: #c24914;
+  font-size: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c24914;
+}
+
+hr {
+  border-color: gray;
+  border-style: dotted none none;
+  border-width: 10px;
+  width: 5%;
+}
+
+.top-container {
+  background-color: #f9e0ae;
+  min-height: 80vh;
+  position: relative;
+  padding-top: 220px;
+}
+
+.middle-container {
+
+}
+
+.profile {
+  padding: 50px;
+}
+
+.bottom-container {
+  background-color: #f9e0ae;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mountain-img {
+  padding-top: 150px;
+}
+
+.languages-img {
+  float: left;
+  margin-right: 40px;
+  width: 25%;
+}
+
+.coding-img {
+  float: right;
+  margin-left: 40px;
+  width: 25%;
+}
+
+.skills {
+  padding: 50px;
+}
+
+.skill-row {
+  margin: 100px auto 0;
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+}
+
+.BUTTON_RVR {
+   background: #C24914;
+   background-image: -webkit-linear-gradient(top, #C24914, #682C0E);
+   background-image: -moz-linear-gradient(top, #C24914, #682C0E);
+   background-image: -ms-linear-gradient(top, #C24914, #682C0E);
+   background-image: -o-linear-gradient(top, #C24914, #682C0E);
+   background-image: -webkit-gradient(to bottom, #C24914, #682C0E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 22px;
+   font-weight: 100;
+   padding: 22px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #682C0E 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px auto;
+}
+
+.BUTTON_RVR:hover {
+   background: #682C0E;
+   border: solid #682C0E 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
